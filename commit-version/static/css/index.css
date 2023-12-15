@@ -1,0 +1,81 @@
+:root{
+    --button-color: #00AF7E;
+    --text-color: rgb(187, 186, 186);
+    --color-white: white ;
+    --border-color: #D9DDE8;
+    --background-color:linear-gradient(to right, rgb(20, 20, 43), rgb(76, 76, 99));
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-section{
+    background-image: var(--background-color);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-text{
+    width: 46rem;
+}
+.title{
+    font-size: 3.7rem;
+}
+.currency-field{
+    background-color: white;
+    height: 3rem;
+    border: 1px solid var(--border-color);
+    width: 23rem;
+}
+.swap-section{
+    width: 50rem;
+    background-color: white;
+}
+
+/* .form-group {
+    margin-top: 2rem;
+    position: relative;
+}
+
+input {
+    font-size: 12px;
+    padding: 10px;
+    width: 12rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    border: none;
+    color: black;
+}
+
+label {
+    position: absolute;
+    transform-origin: top left;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+    color: black;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+input:focus, input:valid {
+    border: none;
+    outline: none;
+}
+
+input:focus + label, input:valid + label {
+    transform: translateY(-22px) scale(0.8);
+    font-size: 12px;
+    outline: none;
+} */
+select{
+    height: 100%;
+    color: black;
+}
+option{
+    color: black;
+   
+}
